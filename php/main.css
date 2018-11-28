@@ -1,0 +1,257 @@
+@font-face {
+    font-family:League-Gothic;
+    src: url(font/LeagueGothic-CondensedItalic.otf);
+    src: url(font/LeagueGothic-Italic.otf);
+    src: url(font/LeagueGothic-CondensedRegular.otf);
+    src: url(font/LeagueGothic-Regular.otf);
+}
+
+
+
+
+
+
+/*****----Basic----****/
+body{
+    padding:5%;
+    background-color: #ffffff;
+}
+h1{
+    text-align:center;
+    font-family: League-Gothic;
+    font-size: 50px;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-family: League-Gothic;
+    font-size: 30px;
+    color: white;
+}
+h3{
+  
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+p{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:15px;
+}
+
+nav ul{
+    overflow:hidden;
+    list-style:none;
+    margin:5%;
+    padding:0;
+    padding-left:25%;
+     
+}
+nav ul li{
+    float:left;
+    text-align: center;
+    margin:0 4%;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+main{
+    margin: 0 10%;
+    height: 100%;
+}
+
+.button{
+    text-decoration: none;
+    
+    margin: 4px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    color:black;
+}
+.active{
+    color:#808080;
+}
+
+/*****-------------------About--------------****/
+.mainMe{
+    margin-top: 8%;
+}
+#motto{
+    text-align: center;
+}
+.aboutBottom{
+    margin-top: 6%;
+    overflow: hidden;
+}
+
+.aboutBottom h3{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.aboutBottom div{
+    margin-bottom: 10%;
+}
+.aboutBottom p{
+    margin-top: 1%;
+}
+#myPic{
+   width: 100%;
+}
+
+
+/*****----Architecture gallery----****/
+.search{
+    height: 150px;
+
+}
+.form{
+    overflow: hidden;
+}
+.type,.name{
+    float: left;
+    margin: 0 50px;
+}
+.boxContainer{
+    overflow: hidden;
+    width: 250px;
+   
+}
+.boxContainer #box img{
+    width: 100%;
+    height: 300px;
+
+}
+#box{
+    float: left;
+}
+/*****-------------Add new-----------****/
+#add{
+    width: 15%;
+
+}
+/*****------------Contact--------------****/
+.mainMe p{
+    width: 70%;
+    margin-left: 17%;
+}
+.contactBottom{
+    overflow: hidden;
+    margin-top: 3%;
+}
+.contactLeft,.contactRight{
+    float: left;
+}
+.contactLeft{
+    height: 70%;
+    width: 30%;
+    margin-right: 17%;
+    margin-left: 13%;
+}
+.contactLeft p{
+    font-size:20px;
+}
+#send{
+    width: 100%;
+}
+/*****----Changes----****/
+
+body{
+    background-image: url("pics/1.jpg");
+    background-size:cover;
+    
+}
+
+/*****----Changes----****/
+
+/*-------------------------------------------------------------- 320px */
+@media (min-width: 320px) {
+    /*-------------------------------------------- HEADER */
+       nav ul{
+          padding-left:2%;
+       }
+      
+       .boxContainer{
+            margin: 0 auto;
+        }
+       
+
+
+
+}
+
+/*-------------------------------------------------------------- 640px */
+@media (min-width: 640px) {
+    /*-------------------------------------------- HEADER */
+       nav ul{
+          padding-left:11%;
+       }     
+    /*-------------------------------------------- INDEX PAGE*/
+       .boxContainer{
+            width: 100%;
+        }
+        #box{
+            margin: 5px 10px;
+            width: 200px;
+        }
+ 
+   
+
+    /*-------------------------------------------- ABOUT PAGE*/
+    #myPic,.aboutside{
+           width: 40%;
+     }
+    .aboutSide{
+        width: 50%;
+        margin-left: 10%;
+        float: right;
+     }
+
+
+}
+
+/*-------------------------------------------------------------- 960px */
+@media (min-width: 960px) {
+    /*-------------------------------------------- HEADER */
+       nav ul{
+          padding-left:18%;
+       }
+      
+    
+
+
+}
+/*-------------------------------------------------------------- 1280px */
+@media (min-width: 1280px) {
+    /*-------------------------------------------- HEADER */
+       nav ul{
+          padding-left:22%;
+       }
+      
+    /*-------------------------------------------- INDEX PAGE*/
+       
+        #box{
+            margin: 10px 12px;
+            width: 200px;
+        }
+}
+
+/*-------------------------------------------------------------- 1680px */
+@media (min-width: 1680px) {
+    /*-------------------------------------------- HEADER */
+       nav ul{
+          padding-left:28%;
+       }
+      
+
+}
+
+
